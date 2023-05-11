@@ -8,7 +8,7 @@ import textile from '../assets/img/textile.svg';
 import bioWaste from '../assets/img/bio-waste.svg'; 
 import batteries from '../assets/img/batteries.svg'; 
 import electricals from '../assets/img/electricals.svg'; 
-import bulbs from '../assets/img/bulbs.svg'; 
+//import bulbs from '../assets/img/bulbs.svg'; 
 import tyres from '../assets/img/tyres.svg'; 
 import oils from '../assets/img/oils.svg'; 
 import bulkyWaste from '../assets/img/bulky-waste.svg'; 
@@ -286,7 +286,7 @@ export const dataCategory = [
   {
     id: 11,
     title: 'Bulbs',
-    image: bulbs,
+    image: electricals,
     detail1: {
       name: 'Allowed',
       description: [
