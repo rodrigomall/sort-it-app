@@ -21,6 +21,14 @@ import inspireOthers from '../assets/img/inspire-others.svg';
 import shower from '../assets/img/shower.svg';
 import tap from '../assets/img/tap.svg';
 
+//Eco-friendly Shops
+import livin from '../assets/img/livin.svg';
+import burka from '../assets/img/burka.svg'; 
+import kuule from '../assets/img/kuule.svg'; 
+import badnica from '../assets/img/badnica.svg'; 
+import sekoeko from '../assets/img/sekoeko.svg'; 
+import daba from '../assets/img/daba.svg'; 
+
 export const dataCategory = [
   {
     id: 1,
@@ -518,7 +526,146 @@ export const dataContainer = [
   }
 ]
 
+export const dataMap = [
+  {
+    locationId: 1,
+    name: "Mount Vernon - S 42nd St, IL",
+    contact: "01 325 1526",
+    address : {
+      street: "1409 S 42nd St",
+      city: "Mt. Vernon",
+      state: "IL",
+      country: "USA"
+    },
+    gps: {
+      latitude: 38.300369,
+      longitude: -88.942472
+    },
+  },
+  {
+    locationId: 2,
+    name: `Ģertrūdes iela 22-24, Centra rajons, Rīga, LV-1011, Latvia`,
+    contact: "+371 23 222 888",
+    address : {
+      street: '',
+      city: '',
+      state: '',
+      country: "LVA"
+    },
+    gps: {
+      latitude: 56.956,
+      longitude: 24.12539
+    },
+  },
+  {
+    locationId: 3,
+    name: `Ģertrūdes iela 27, Centra rajons, Rīga, LV-1011, Latvia`,
+    contact: "+371 23 111 888",
+    address : {
+      street: '',
+      city: '',
+      state: '',
+      country: "LVA"
+    },
+    gps: {
+      latitude: 56.936,
+      longitude: 24.11519
+    },
+  },
+  {
+    locationId: 4,
+    name: `Ģertrūdes iela 34-1A, Centra rajons, Rīga, LV-1011, Latvia`,
+    contact: "+371 23 111 123",
+    address : {
+      street: '',
+      city: '',
+      state: '',
+      country: "LVA"
+    },
+    gps: {
+      latitude: 56.947,
+      longitude: 24.1351
+    },
+  },
+  {
+    locationId: 5,
+    name: `Ludzas iela 24, Latgales priekšpilsēta, Rīga, LV-1003, Latvia`,
+    contact: "+371 67 140 175",
+    address : {
+      street: '',
+      city: '',
+      state: '',
+      country: "LVA"
+    },
+    gps: {
+      latitude: 56.940,
+      longitude: 24.1250
+    },
+  }
+]
 
+export const dataEcoShop = [
+  {
+    id: 1,
+    title: 'Livin',
+    image: livin,
+    detail1: {
+      description: [
+        `Nowadays goods are produced in such a way as to satisfy the consumer. But how to choose? How to understand which products are good and which are produced using harmful substances? How to understand what is written on the label and what is its subtext? Which manufacturer really cares about the wishes of the consumer, but who only talks loudly about it? And finally, how do you find the time to do this work? This is exactly what we do, and we are picky about it. We sell high quality natural and ecological food products, natural cosmetics, cleaning products. The food we offer is delicious, the cosmetics are effective, and the cleaning products are effective. Experience for yourself that natural and ecological - it is not an echo of the past, but a very rational and modern choice!`
+      ]
+    }
+  },
+  {
+    id: 2,
+    title: 'Burka',
+    image: burka,
+    detail1: {
+      description: [
+        `"Burka" is a place where you can buy food without packaging (by weight) exactly in the quantity you need and in the packaging you want, as well as environmentally friendly things that help you live "greener". We also try to promote a green lifestyle by implementing anti-waste initiatives and giving people the opportunity to exchange resources such as jars, dishes, candle scraps, boxes, etc. for free. We are for a life free from pollution, against unnecessary consumption of resources, favoring sustainable development, environmentally friendly, ethical consumption and lifestyle.`
+      ]
+    }
+  },
+  {
+    id: 3,
+    title: 'Kuule',
+    image: kuule,
+    detail1: {
+      description: [
+        ``
+      ]
+    }
+  },
+  {
+    id: 4,
+    title: 'Badnica',
+    image: badnica,
+    detail1: {
+      description: [
+        ``
+      ]
+    }
+  },
+  {
+    id: 5,
+    title: 'Sekoeko',
+    image: sekoeko,
+    detail1: {
+      description: [
+        ``
+      ]
+    }
+  },
+  {
+    id: 6,
+    title: 'Daba',
+    image: daba,
+    detail1: {
+      description: [
+        ``
+      ]
+    }
+  }
+]
 
 
 export const dataTipsTricks = [

@@ -20,7 +20,7 @@ const Footer = () => {
           </Col>
           <Col>
             <p className='fw-bold'>Contacts</p>
-            <p className='m-0'>sortit@gmail</p>
+            <p className='m-0'>sortit@gmail.com</p>
           </Col>
         </Row>
      

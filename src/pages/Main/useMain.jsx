@@ -17,7 +17,7 @@ const dataButtons = [
   },
   {
     id: 3,
-    name: 'Zero waste shops',
+    name: 'Eco-friendly shops',
     isActive: false
   },
   {
